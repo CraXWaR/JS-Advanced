@@ -9,7 +9,7 @@ function addItem() {
     optionEl.value = newItemValue.value
 
     selectMenu.appendChild(optionEl)
-    
+
     newItemText.value = ''
     newItemValue.value = ''
 }

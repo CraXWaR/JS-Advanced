@@ -28,7 +28,7 @@ function solve() {
         }
         return Object.assign(state, canCast(state))
     }
-    return {mage: mage, fighter: fighter}
+    return { mage: mage, fighter: fighter }
 }
 let create = solve();
 const scorcher = create.mage("Scorcher");

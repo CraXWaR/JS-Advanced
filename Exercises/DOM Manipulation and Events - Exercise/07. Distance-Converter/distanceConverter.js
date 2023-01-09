@@ -13,7 +13,7 @@ function attachEventsListeners() {
         ft: 0.3048,
         in: 0.0254
     }
-    
+
     function clicked(e) {
         let fromV = document.getElementById('inputUnits').value;
         let toV = document.getElementById('outputUnits').value;
